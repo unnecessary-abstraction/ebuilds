@@ -1,0 +1,13 @@
+diff --git a/Cargo.toml b/Cargo.toml
+index 812ed224b23d..15415c1fcb34 100644
+--- a/Cargo.toml
++++ b/Cargo.toml
+@@ -15,7 +15,7 @@ pure = ["blake3/pure"]
+ 
+ [dependencies]
+ anyhow = "1.0.25"
+-blake3 = { version = "1", path = "..", features = ["mmap", "rayon"] }
++blake3 = { version = "1.5.1", features = ["mmap", "rayon"] }
+ clap = { version = "4.0.8", features = ["derive", "wrap_help"] }
+ hex = "0.4.0"
+ rayon = "1.2.1"
